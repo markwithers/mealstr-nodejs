@@ -1,23 +1,23 @@
 {
-  "name": "WebMatrixExpressSite",
+  "name": "Mealstr",
   "version": "0.1.0",
-  "author": "The WebMatrix Team <webmatrix@microsoft.com>",
-  "description": "A simple boilerplate for building node applications on Windows Azure (or wherever)",
+  "author": "Mark Withers",
+  "description": "Testing Node JS",
   "contributors": [ 
     {
-      "name": "Justin Beckwith",
-      "email": "justbe@microsoft.com"
+      "name": "Mark Withers",
+      "email": "markwithers@myway.com"
     } 
   ],  
   "main": "./server.js",  
   "keywords": [
-    "azure",
     "boilerplate",
     "express"
   ],
   "dependencies" : {
     "express": "2.5.7",
-    "jade": ">= 0.0.1"
+    "cradle": "*",
+    "ejs": "*"
   },
   "noAnalyze": true,
   "license": "Apache",
