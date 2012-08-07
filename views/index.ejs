@@ -1,0 +1,18 @@
+<h1>Mealstr</h1>
+<table>
+    <thead>
+        <tr><th>Day</th><th>Meal</th><th>Cook</th><th></th></tr>
+    </thead>
+    <tbody>
+        <% for (var d in docs){
+	        var doc = docs[d].value; %>
+            <tr>
+                <td><%= doc.day %></td>
+                <td><%= doc.meal %></td>
+                <td><%= doc.cook %></td>
+                <td><a href="/Meals/Delete/<%= doc._id %>">Delete</a></td>
+            </tr>
+        <% } %>
+    </tbody>
+</table>
+<a href="/Meals/Create">Create New</a>
